@@ -1,0 +1,19 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Enter your message:");
+        string userMessage = Console.ReadLine();
+
+        if (userMessage.Length <= 140)
+        {
+            Console.WriteLine("Your message is accepted!");
+        }
+        else
+        {
+            Console.WriteLine("Your message is too long. Please keep it under 140 characters.");
+        }
+    }
+}
